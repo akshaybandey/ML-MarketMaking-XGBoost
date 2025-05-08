@@ -1,30 +1,37 @@
 # Machine Learning for Market Making: An XGBoost-Based Trading Signal Framework
 
-This repository contains the complete research project submitted to WEBB Traders, focused on building and backtesting a machine learning pipeline using XGBoost for 5-minute EUR/USD market data.
+This repository contains the full project submitted to WEBB Traders💖, focused on developing a machine learning pipeline for generating and backtesting short-term trading signals using XGBoost. The project also benchmarks performance against Random Forest and Neural Network classifiers.
 
-## 📂 Structure
+---
 
-- `notebooks/`: Training, labeling, and backtesting notebooks
-- `data/`: Sample 5-minute OHLCV data (CSV format)
-- `images/`: Trade visualization screenshots
-- `report/`: Full LaTeX report and compiled PDF
+## 📁 Contents
 
-## 🚀 Main Results
+- **Jupyter Notebooks**
+  - `Indicators_XGBoost_Neural_Net.ipynb`: Feature engineering, model training, and evaluation
+  - `XGBoost_Backtest.ipynb`: Signal conversion and strategy backtesting
 
-- XGBoost achieved a 9.4% return over 6 months with only 6% exposure.
-- Neural Network benchmark underperformed.
-- Backtest and classifier evaluations included.
+- **Data**
+  - `EURUSD_5min_sample.csv`: Sample 5-minute EUR/USD OHLCV data
 
-## 📦 Requirements
+- **Report**
+  - `ML_FX_XGBoost_Signal_Backtest`: Final project report (LaTeX compiled)
+ 
 
-- Python 3.9+
-- `xgboost`, `pandas`, `scikit-learn`, `matplotlib`, `ta`, `backtesting`
-- LaTeX (if compiling the report)
+---
 
-## 📄 License
+## 🚀 Key Highlights
 
-MIT (or your choice)
+- ✅ Engineered features: EMA, ATR, slope, volatility thresholds, PCA
+- ✅ XGBoost achieved a **9.4% return** with just **6% market exposure**
+- ✅ Outperformed Random Forest and Neural Network benchmarks
+- ✅ Backtested on 6 months of 5-minute EUR/USD data
+- ✅ Full LaTeX report included
 
-## 📬 Contact
+---
 
-[Akshay Bande](mailto:your-email@example.com)
+## ⚙️ Requirements
+
+### Python (for notebooks)
+
+```bash
+pip install xgboost pandas scikit-learn matplotlib ta backtesting
