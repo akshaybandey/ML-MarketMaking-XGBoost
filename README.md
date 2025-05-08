@@ -1,6 +1,8 @@
 # Machine Learning for Market Making: An XGBoost-Based Trading Signal Framework
 
 This repository contains the full project submitted to WEBB Traders💖, focused on developing a machine learning pipeline for generating and backtesting short-term trading signals using XGBoost. The project also benchmarks performance against Random Forest and Neural Network classifiers.
+---
+![image](https://github.com/user-attachments/assets/73263822-1d0d-418a-aef3-ccb774508a7c)
 
 ---
 
